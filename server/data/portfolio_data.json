@@ -1,0 +1,576 @@
+{
+  "messages": [
+    {
+      "name": "Google Recruiter",
+      "email": "recruiter@deepmind.com",
+      "subject": "VLSI & 3D Engineering Role",
+      "message": "We love the 3D Solar Tracking simulator and your academic profile at K. S. Rangasamy College of Technology!",
+      "ip": "::1",
+      "id": "msg-1787677307615-r4t1kr",
+      "createdAt": "2026-08-25T17:01:47.615Z",
+      "read": true
+    },
+    {
+      "id": "msg-welcome-1",
+      "name": "System Recruiter",
+      "email": "recruiter@techventures.io",
+      "subject": "Impressive 3D VLSI & Embedded Portfolio!",
+      "message": "Hello Thakshnesh, we reviewed your Solar Tracking System & MQ-2 sensor simulation. Great hardware & software synergy. Looking forward to connecting!",
+      "createdAt": "2026-08-24T16:58:19.587Z",
+      "read": true,
+      "ip": "127.0.0.1"
+    }
+  ],
+  "analytics": [
+    {
+      "id": "evt-1787677307619-zcepp",
+      "type": "page_view",
+      "detail": "Message received from Google Recruiter",
+      "timestamp": "2026-08-25T17:01:47.619Z"
+    },
+    {
+      "id": "evt-1787677431449-968xi",
+      "type": "resume_download",
+      "detail": "Resume JSON viewed",
+      "timestamp": "2026-08-25T17:03:51.449Z"
+    },
+    {
+      "id": "evt-1787678510507-ivlcq",
+      "type": "page_view",
+      "detail": "User visited portfolio",
+      "timestamp": "2026-08-25T17:21:50.507Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+    },
+    {
+      "id": "evt-1787678511411-hv558",
+      "type": "page_view",
+      "detail": "User visited portfolio",
+      "timestamp": "2026-08-25T17:21:51.411Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+    },
+    {
+      "id": "evt-1787678637215-7l6lo",
+      "type": "terminal_cmd",
+      "detail": "skills",
+      "timestamp": "2026-08-25T17:23:57.215Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+    },
+    {
+      "id": "evt-1787678650539-xtguu",
+      "type": "terminal_cmd",
+      "detail": "contact",
+      "timestamp": "2026-08-25T17:24:10.539Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+    },
+    {
+      "id": "evt-1787679421185-2wqlw",
+      "type": "page_view",
+      "detail": "User visited portfolio",
+      "timestamp": "2026-08-25T17:37:01.185Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+    },
+    {
+      "id": "evt-1787679444974-us2qs",
+      "type": "page_view",
+      "detail": "User visited portfolio",
+      "timestamp": "2026-08-25T17:37:24.974Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+    },
+    {
+      "id": "evt-1787679550605-z1lmi",
+      "type": "terminal_cmd",
+      "detail": "AI Chat: Tell me about your Solar Tracking system and your ",
+      "timestamp": "2026-08-25T17:39:10.605Z"
+    },
+    {
+      "id": "evt-1787679567437-0sclt",
+      "type": "terminal_cmd",
+      "detail": "AI Chat: How does your Arduino Solar Tracking algorithm wor",
+      "timestamp": "2026-08-25T17:39:27.437Z"
+    },
+    {
+      "id": "evt-1787679883593-3o4a3",
+      "type": "page_view",
+      "detail": "User visited portfolio",
+      "timestamp": "2026-08-25T17:44:43.593Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+    },
+    {
+      "id": "evt-1787679884129-7znja",
+      "type": "page_view",
+      "detail": "User visited portfolio",
+      "timestamp": "2026-08-25T17:44:44.129Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+    },
+    {
+      "id": "evt-1787679903108-y7soe",
+      "type": "page_view",
+      "detail": "User visited portfolio",
+      "timestamp": "2026-08-25T17:45:03.108Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+    },
+    {
+      "id": "evt-1787679904522-oazue",
+      "type": "page_view",
+      "detail": "User visited portfolio",
+      "timestamp": "2026-08-25T17:45:04.522Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+    },
+    {
+      "id": "evt-1787679975216-bz90n",
+      "type": "page_view",
+      "detail": "User visited portfolio",
+      "timestamp": "2026-08-25T17:46:15.216Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+    },
+    {
+      "id": "evt-1787679975706-n2hzk",
+      "type": "page_view",
+      "detail": "User visited portfolio",
+      "timestamp": "2026-08-25T17:46:15.706Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+    },
+    {
+      "id": "evt-1787680040092-2alel",
+      "type": "page_view",
+      "detail": "User visited portfolio",
+      "timestamp": "2026-08-25T17:47:20.092Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+    },
+    {
+      "id": "evt-1787680041690-clfhg",
+      "type": "page_view",
+      "detail": "User visited portfolio",
+      "timestamp": "2026-08-25T17:47:21.690Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+    },
+    {
+      "id": "evt-1787680856216-qvdn8",
+      "type": "page_view",
+      "detail": "User visited portfolio",
+      "timestamp": "2026-08-25T18:00:56.216Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+    },
+    {
+      "id": "evt-1787680856742-eb7qx",
+      "type": "page_view",
+      "detail": "User visited portfolio",
+      "timestamp": "2026-08-25T18:00:56.742Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+    },
+    {
+      "id": "evt-1787680942972-g633w",
+      "type": "page_view",
+      "detail": "User visited portfolio",
+      "timestamp": "2026-08-25T18:02:22.972Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+    },
+    {
+      "id": "evt-1787681085292-9s3dj",
+      "type": "terminal_cmd",
+      "detail": "Bujji Chat: Tell me about your NSS volunteering experience",
+      "timestamp": "2026-08-25T18:04:45.292Z"
+    },
+    {
+      "id": "evt-1787681103984-fckep",
+      "type": "terminal_cmd",
+      "detail": "Bujji Chat: Who are you?",
+      "timestamp": "2026-08-25T18:05:03.984Z"
+    },
+    {
+      "id": "evt-1787681125053-texof",
+      "type": "page_view",
+      "detail": "User visited portfolio",
+      "timestamp": "2026-08-25T18:05:25.053Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+    },
+    {
+      "id": "evt-1787681125516-9v1t4",
+      "type": "page_view",
+      "detail": "User visited portfolio",
+      "timestamp": "2026-08-25T18:05:25.516Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+    },
+    {
+      "id": "evt-1787681141844-i2mfn",
+      "type": "page_view",
+      "detail": "User visited portfolio",
+      "timestamp": "2026-08-25T18:05:41.845Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+    },
+    {
+      "id": "evt-1787681143927-n0q9p",
+      "type": "page_view",
+      "detail": "User visited portfolio",
+      "timestamp": "2026-08-25T18:05:43.927Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+    },
+    {
+      "id": "evt-1787681656932-xgowh",
+      "type": "terminal_cmd",
+      "detail": "Bujji Chat: what is the time now",
+      "timestamp": "2026-08-25T18:14:16.932Z"
+    },
+    {
+      "id": "evt-1787681670132-b7lpz",
+      "type": "terminal_cmd",
+      "detail": "Bujji Chat: Who is Bujji?",
+      "timestamp": "2026-08-25T18:14:30.132Z"
+    },
+    {
+      "id": "evt-1787681722164-ke8lc",
+      "type": "resume_download",
+      "detail": "Resume text download requested",
+      "timestamp": "2026-08-25T18:15:22.164Z"
+    },
+    {
+      "id": "evt-1787682788715-jvy3h",
+      "type": "page_view",
+      "detail": "User visited portfolio",
+      "timestamp": "2026-08-25T18:33:08.715Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+    },
+    {
+      "id": "evt-1787682789150-mtua7",
+      "type": "page_view",
+      "detail": "User visited portfolio",
+      "timestamp": "2026-08-25T18:33:09.150Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+    },
+    {
+      "id": "evt-1787682799985-mg8px",
+      "type": "page_view",
+      "detail": "User visited portfolio",
+      "timestamp": "2026-08-25T18:33:19.985Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+    },
+    {
+      "id": "evt-1787682988838-taf5n",
+      "type": "terminal_cmd",
+      "detail": "Bujji Query: How does a MOSFET work in saturation mode?",
+      "timestamp": "2026-08-25T18:36:28.838Z"
+    },
+    {
+      "id": "evt-1787683042054-1j725",
+      "type": "terminal_cmd",
+      "detail": "Bujji Query: Can you write a Python code example for sensor rea",
+      "timestamp": "2026-08-25T18:37:22.054Z"
+    },
+    {
+      "id": "evt-1787683068254-bfjq6",
+      "type": "page_view",
+      "detail": "User visited portfolio",
+      "timestamp": "2026-08-25T18:37:48.254Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+    },
+    {
+      "id": "evt-1787683068274-d7e8i",
+      "type": "page_view",
+      "detail": "User visited portfolio",
+      "timestamp": "2026-08-25T18:37:48.274Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+    },
+    {
+      "id": "evt-1787683068641-xnnkm",
+      "type": "page_view",
+      "detail": "User visited portfolio",
+      "timestamp": "2026-08-25T18:37:48.641Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+    },
+    {
+      "id": "evt-1787683068806-zxam4",
+      "type": "page_view",
+      "detail": "User visited portfolio",
+      "timestamp": "2026-08-25T18:37:48.806Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+    },
+    {
+      "id": "evt-1787683085405-fpr9c",
+      "type": "terminal_cmd",
+      "detail": "Bujji Query: hello",
+      "timestamp": "2026-08-25T18:38:05.406Z"
+    },
+    {
+      "id": "evt-1787683304364-0xy0m",
+      "type": "terminal_cmd",
+      "detail": "Bujji Query: hi",
+      "timestamp": "2026-08-25T18:41:44.364Z"
+    },
+    {
+      "id": "evt-1787683358186-6sj2z",
+      "type": "page_view",
+      "detail": "User visited portfolio",
+      "timestamp": "2026-08-25T18:42:38.186Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+    },
+    {
+      "id": "evt-1787683359452-5p7oc",
+      "type": "page_view",
+      "detail": "User visited portfolio",
+      "timestamp": "2026-08-25T18:42:39.452Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+    },
+    {
+      "id": "evt-1787683475101-2o4mj",
+      "type": "page_view",
+      "detail": "User visited portfolio",
+      "timestamp": "2026-08-25T18:44:35.101Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+    },
+    {
+      "id": "evt-1787683475421-7x09d",
+      "type": "page_view",
+      "detail": "User visited portfolio",
+      "timestamp": "2026-08-25T18:44:35.421Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+    },
+    {
+      "id": "evt-1787683523641-atyez",
+      "type": "page_view",
+      "detail": "User visited portfolio",
+      "timestamp": "2026-08-25T18:45:23.641Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+    },
+    {
+      "id": "evt-1787683524060-tk82r",
+      "type": "page_view",
+      "detail": "User visited portfolio",
+      "timestamp": "2026-08-25T18:45:24.060Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+    },
+    {
+      "id": "evt-1787683639856-5e36h",
+      "type": "terminal_cmd",
+      "detail": "Bujji Query: whats the time",
+      "timestamp": "2026-08-25T18:47:19.856Z"
+    },
+    {
+      "id": "evt-1787683821167-8quue",
+      "type": "terminal_cmd",
+      "detail": "Bujji Query: Who are you and what do you do?",
+      "timestamp": "2026-08-25T18:50:21.167Z"
+    },
+    {
+      "id": "evt-1787683836838-nvk7s",
+      "type": "terminal_cmd",
+      "detail": "Bujji Query: How can I contact Thakshnesh for an internship or ",
+      "timestamp": "2026-08-25T18:50:36.838Z"
+    },
+    {
+      "id": "evt-1787684181774-ph3gp",
+      "type": "terminal_cmd",
+      "detail": "Bujji Query: Vanakkam Bujji, epdi irukinga?",
+      "timestamp": "2026-08-25T18:56:21.774Z"
+    },
+    {
+      "id": "evt-1787684195840-1ey17",
+      "type": "terminal_cmd",
+      "detail": "Bujji Query: What happens if I put my phone inside a microwave?",
+      "timestamp": "2026-08-25T18:56:35.840Z"
+    },
+    {
+      "id": "evt-1787684215008-tzru1",
+      "type": "terminal_cmd",
+      "detail": "Bujji Query: Are you like Iron Man's JARVIS?",
+      "timestamp": "2026-08-25T18:56:55.008Z"
+    },
+    {
+      "id": "evt-1787684243214-cbmhr",
+      "type": "page_view",
+      "detail": "User visited portfolio",
+      "timestamp": "2026-08-25T18:57:23.214Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+    },
+    {
+      "id": "evt-1787684243686-dask3",
+      "type": "page_view",
+      "detail": "User visited portfolio",
+      "timestamp": "2026-08-25T18:57:23.686Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+    },
+    {
+      "id": "evt-1787684281184-1gjy7",
+      "type": "terminal_cmd",
+      "detail": "Bujji Query: Who is Bujji?",
+      "timestamp": "2026-08-25T18:58:01.184Z"
+    },
+    {
+      "id": "evt-1787684291920-ls405",
+      "type": "terminal_cmd",
+      "detail": "Bujji Query: Explain the Solar Tracking System",
+      "timestamp": "2026-08-25T18:58:11.920Z"
+    },
+    {
+      "id": "evt-1787684779202-v3wgo",
+      "type": "page_view",
+      "detail": "User visited portfolio",
+      "timestamp": "2026-08-25T19:06:19.202Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+    },
+    {
+      "id": "evt-1787684779530-huw3a",
+      "type": "page_view",
+      "detail": "User visited portfolio",
+      "timestamp": "2026-08-25T19:06:19.530Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+    },
+    {
+      "id": "evt-1787684918742-9s4q6",
+      "type": "page_view",
+      "detail": "User visited portfolio",
+      "timestamp": "2026-08-25T19:08:38.742Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+    },
+    {
+      "id": "evt-1787684919386-1inax",
+      "type": "page_view",
+      "detail": "User visited portfolio",
+      "timestamp": "2026-08-25T19:08:39.386Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+    },
+    {
+      "id": "evt-1787685017667-al0vp",
+      "type": "terminal_cmd",
+      "detail": "Bujji Query: Where is your college located? Can you give me the",
+      "timestamp": "2026-08-25T19:10:17.667Z"
+    },
+    {
+      "id": "evt-1787685029874-jxpgy",
+      "type": "page_view",
+      "detail": "User visited portfolio",
+      "timestamp": "2026-08-25T19:10:29.874Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+    },
+    {
+      "id": "evt-1787685030325-j6ezk",
+      "type": "page_view",
+      "detail": "User visited portfolio",
+      "timestamp": "2026-08-25T19:10:30.325Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+    },
+    {
+      "id": "evt-1787685402628-mroos",
+      "type": "page_view",
+      "detail": "User visited portfolio",
+      "timestamp": "2026-08-25T19:16:42.628Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+    },
+    {
+      "id": "evt-1787685403096-9xw7z",
+      "type": "page_view",
+      "detail": "User visited portfolio",
+      "timestamp": "2026-08-25T19:16:43.096Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+    },
+    {
+      "id": "evt-1787685880404-8a27e",
+      "type": "page_view",
+      "detail": "User visited portfolio",
+      "timestamp": "2026-08-25T19:24:40.404Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+    },
+    {
+      "id": "evt-1787685880820-96chm",
+      "type": "page_view",
+      "detail": "User visited portfolio",
+      "timestamp": "2026-08-25T19:24:40.820Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+    },
+    {
+      "id": "evt-1787686177673-kem17",
+      "type": "page_view",
+      "detail": "User visited portfolio",
+      "timestamp": "2026-08-25T19:29:37.673Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+    },
+    {
+      "id": "evt-1787686178088-as9tc",
+      "type": "page_view",
+      "detail": "User visited portfolio",
+      "timestamp": "2026-08-25T19:29:38.088Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+    },
+    {
+      "id": "evt-1787686282990-ysq1o",
+      "type": "page_view",
+      "detail": "User visited portfolio",
+      "timestamp": "2026-08-25T19:31:22.991Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+    },
+    {
+      "id": "evt-1787686282996-2tm18",
+      "type": "page_view",
+      "detail": "User visited portfolio",
+      "timestamp": "2026-08-25T19:31:22.996Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+    },
+    {
+      "id": "evt-1787686362088-65t3x",
+      "type": "page_view",
+      "detail": "User visited portfolio",
+      "timestamp": "2026-08-25T19:32:42.088Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+    },
+    {
+      "id": "evt-1787686362456-sjtj4",
+      "type": "page_view",
+      "detail": "User visited portfolio",
+      "timestamp": "2026-08-25T19:32:42.456Z",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0"
+    },
+    {
+      "id": "evt-1787687063296-6stjr",
+      "type": "terminal_cmd",
+      "detail": "Bujji Query: i am thakshnesh",
+      "timestamp": "2026-08-25T19:44:23.296Z"
+    },
+    {
+      "id": "evt-1787746058473-0ro4n",
+      "type": "terminal_cmd",
+      "detail": "Bujji Query: How does the MQ-2 Gas Detector work?",
+      "timestamp": "2026-08-26T12:07:38.473Z"
+    },
+    {
+      "id": "evt-1787746066507-mqx7c",
+      "type": "terminal_cmd",
+      "detail": "Bujji Query: What are your VLSI & Programming skills?",
+      "timestamp": "2026-08-26T12:07:46.508Z"
+    },
+    {
+      "id": "evt-1787746071973-6q5ez",
+      "type": "terminal_cmd",
+      "detail": "Bujji Query: NPTEL IIT-M certification info",
+      "timestamp": "2026-08-26T12:07:51.973Z"
+    },
+    {
+      "id": "evt-1787746082093-a0c9l",
+      "type": "terminal_cmd",
+      "detail": "Bujji Query: How can I contact Thakshnesh?",
+      "timestamp": "2026-08-26T12:08:02.093Z"
+    },
+    {
+      "id": "evt-1788008793667-8ji4t",
+      "type": "project_sim_run",
+      "detail": "Liked project smoke-detector",
+      "timestamp": "2026-08-29T13:06:33.667Z"
+    },
+    {
+      "id": "evt-1788009836080-3lsar",
+      "type": "resume_download",
+      "detail": "Resume text download requested",
+      "timestamp": "2026-08-29T13:23:56.080Z"
+    },
+    {
+      "id": "evt-1788010917251-ec2ka",
+      "type": "terminal_cmd",
+      "detail": "Bujji Query: Tell me about Thakshnesh's VLSI Design & Technolog",
+      "timestamp": "2026-08-29T13:41:57.251Z"
+    }
+  ],
+  "projectLikes": {
+    "solar-tracker": 42,
+    "smoke-detector": 39,
+    "vlsi-design": 29
+  },
+  "visitorCount": 1335
+}
