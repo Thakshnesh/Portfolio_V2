@@ -6,7 +6,7 @@ function getLocalBujjiResponse(rawPrompt: string): string {
   const q = rawPrompt.toLowerCase();
 
   if (q.includes('who is bujji') || q.includes('who are you') || q.includes('why was it created') || q.includes('bujji')) {
-    return `I am **Bujji**—a personal AI Assistant created and built solely by **Thakshnesh B**! 🤖\n\nI was created to represent Thakshnesh, answer questions regarding his VLSI engineering achievements, interactive hardware simulations, programming skills, NSS volunteering, and connect visitors directly with him.`;
+    return `I am **Bujji**—a personal AI Assistant created and built solely by **Thakshnesh B**! 🤖\n\nI was created to represent Thakshnesh, answer questions regarding his VLSI engineering achievements, interactive hardware simulations, programming skills, and connect visitors directly with him.`;
   }
 
   if (q.includes('solar') || q.includes('sun') || q.includes('tracker') || q.includes('ldr')) {
@@ -29,8 +29,8 @@ function getLocalBujjiResponse(rawPrompt: string): string {
     return `### 🎓 Academic Profile & Qualifications:\n\n- **Degree:** B.E. Electronics Engineering (VLSI Design & Technology)\n- **Institution:** K. S. Rangasamy College of Technology (Autonomous, Anna University affiliated)\n- **Overall CGPA:** **8.5 / 10**\n  - 1st Semester SGPA: **8.37**\n  - 2nd Semester CGPA: **8.5**\n- **Location:** Tiruchengode, Tamil Nadu, India.`;
   }
 
-  if (q.includes('nss') || q.includes('volunteer') || q.includes('social') || q.includes('community')) {
-    return `### 🤝 National Service Scheme (NSS) Volunteer\n\nThakshnesh B is an active **NSS Volunteer** at K. S. Rangasamy College of Technology:\n\n- **Service Impact:** Engaged in village outreach programs, tree planting & environmental cleanliness drives, health/hygiene awareness seminars, and community empowerment.\n- **Core Values:** Strong civic commitment, public empathy, teamwork, and crisis management.`;
+  if (q.includes('innovation') || q.includes('prototype') || q.includes('hardware') || q.includes('project')) {
+    return `### ⚡ VLSI & Embedded Hardware Innovations\n\nThakshnesh B actively develops cutting-edge hardware and embedded prototypes at K. S. Rangasamy College of Technology:\n\n- **Solar Tracking System:** Dual-axis optical sensor alignment system increasing energy yield by up to 35%.\n- **MQ-2 Gas & Smoke Safety Unit:** Rapid threshold electrochemical alert system with visual/audio siren cascade.\n- **VLSI Digital Circuits:** CMOS logic synthesis, RTL modeling, and semiconductor circuit exploration.`;
   }
 
   if (q.includes('nptel') || q.includes('silver') || q.includes('certificate') || q.includes('madras')) {
@@ -45,7 +45,7 @@ function getLocalBujjiResponse(rawPrompt: string): string {
     return `### 🗺️ Campus Location:\n\n**K. S. Rangasamy College of Technology (KSRCT)**\nKSR Kalvi Nagar, Tiruchengode, Tamil Nadu 637215, India.\n\n📍 **Direct Google Maps Link:** [Open in Google Maps](https://maps.app.goo.gl/NwCivf8YVTJngjw88)`;
   }
 
-  return `Thank you for your inquiry! Thakshnesh B is an Electronics Engineering undergraduate specializing in VLSI Design & Technology at KSRCT with an 8.5 CGPA and active NSS volunteering background. Feel free to contact him at thakshnesh@gmail.com!`;
+  return `Thank you for your inquiry! Thakshnesh B is an Electronics Engineering undergraduate specializing in VLSI Design & Technology at KSRCT with an 8.5 CGPA. Feel free to contact him at thakshnesh@gmail.com!`;
 }
 
 export const api = {

@@ -270,7 +270,7 @@ const WorkbenchCanvas: React.FC = () => {
 };
 
 // =========================================================================
-// 4. Synaptic Neural & NSS Constellation Canvas Visualizer
+// 4. Synaptic Neural & Soft Skills Constellation Canvas Visualizer
 // =========================================================================
 const SynapticNetworkCanvas: React.FC = () => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -296,8 +296,8 @@ const SynapticNetworkCanvas: React.FC = () => {
 
     const nodes: Node[] = [
       { x: 50, y: 40, vx: 0.3, vy: 0.2, radius: 3, name: 'Logic' },
-      { x: 120, y: 30, vx: -0.2, vy: 0.3, radius: 4, name: 'NSS' },
-      { x: 220, y: 50, vx: -0.3, vy: -0.2, radius: 3, name: 'Empathy' },
+      { x: 120, y: 30, vx: -0.2, vy: 0.3, radius: 4, name: 'Lead' },
+      { x: 220, y: 50, vx: -0.3, vy: -0.2, radius: 3, name: 'Comms' },
       { x: 80, y: 90, vx: 0.2, vy: -0.3, radius: 3.5, name: 'Solve' },
       { x: 170, y: 85, vx: 0.3, vy: 0.2, radius: 3, name: 'Team' },
       { x: 250, y: 95, vx: -0.2, vy: 0.2, radius: 2.5, name: 'Ethics' },
@@ -575,7 +575,7 @@ export const SkillsSection: React.FC = () => {
           </div>
 
           {/* ========================================================= */}
-          {/* CARD 4: SYNAPTIC NETWORK (SOFT SKILLS & NSS) */}
+          {/* CARD 4: SYNAPTIC NETWORK (PROFESSIONAL & SOFT SKILLS) */}
           {/* ========================================================= */}
           <div className="relative rounded-3xl p-5 sm:p-6 overflow-hidden border border-amber-500/40 bg-white dark:bg-gradient-to-b dark:from-[#1c1204] dark:via-[#2d1e08] dark:to-[#120b02] shadow-xl dark:shadow-2xl flex flex-col justify-between group hover:border-amber-500 hover:shadow-amber-500/15 transition-all duration-300 hover:-translate-y-1">
             <div>
@@ -586,8 +586,8 @@ export const SkillsSection: React.FC = () => {
                     <Users className="w-4 h-4" />
                   </div>
                   <div>
-                    <h3 className="font-display font-bold text-sm text-amber-900 dark:text-amber-200">Soft Skills & NSS</h3>
-                    <span className="text-[10px] font-mono text-amber-700 dark:text-amber-400 font-semibold">SYNAPTIC & COMMUNITY</span>
+                    <h3 className="font-display font-bold text-sm text-amber-900 dark:text-amber-200">Soft Skills & Leadership</h3>
+                    <span className="text-[10px] font-mono text-amber-700 dark:text-amber-400 font-semibold">SYNAPTIC & LEADERSHIP</span>
                   </div>
                 </div>
               </div>
@@ -595,7 +595,7 @@ export const SkillsSection: React.FC = () => {
               {/* Synaptic Constellation Canvas Visualizer */}
               <SynapticNetworkCanvas />
 
-              {/* Soft Skills & NSS List */}
+              {/* Soft Skills & Leadership List */}
               <div className="space-y-2">
                 {softSkills.map((soft) => (
                   <div
@@ -617,10 +617,10 @@ export const SkillsSection: React.FC = () => {
 
             {/* Footer */}
             <div className="mt-4 pt-3 border-t border-amber-500/20 flex items-center justify-between text-[10px] font-mono text-amber-800 dark:text-amber-300 font-semibold">
-              <span>NSS VOLUNTEER</span>
+              <span>NPTEL CERTIFIED</span>
               <span className="flex items-center gap-1">
                 <span className="w-1.5 h-1.5 rounded-full bg-amber-500 dark:bg-amber-400 animate-pulse" />
-                ACTIVE SERVICE
+                ELITE + SILVER
               </span>
             </div>
           </div>

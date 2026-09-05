@@ -6,7 +6,7 @@ export const personalInfo = {
   roles: [
     'Electronics Engineer',
     'VLSI & Embedded Developer',
-    'NSS Volunteer',
+    'Technical Innovator',
     'AI & Analytics Enthusiast',
   ],
   status: 'Available for Opportunities',
@@ -15,8 +15,8 @@ export const personalInfo = {
   mapsUrl: 'https://maps.app.goo.gl/NwCivf8YVTJngjw88',
   linkedin: 'https://www.linkedin.com/in/thakshnesh-b-585928381',
   careerObjective:
-    'Driven and curious Electronics Engineering undergraduate and active NSS Volunteer with interests in Business Analytics, Project Management, and Artificial Intelligence. Passionate about combining analytical thinking, technology, and community-driven creativity to build innovative solutions while continuously growing both technically and professionally.',
-  bio: `I am an Electronics Engineering student and NSS Volunteer at K. S. Rangasamy College of Technology specializing in VLSI Design and Technology. My engineering focus combines hardware circuit design, sensor interfacing, microcontrollers, and community service initiatives to construct impactful, automated solutions.`,
+    'Driven and curious Electronics Engineering undergraduate with interests in VLSI Design, Embedded Systems, Business Analytics, and Artificial Intelligence. Passionate about combining analytical thinking, hardware engineering, and software innovation to build robust solutions while continuously growing both technically and professionally.',
+  bio: `I am an Electronics Engineering student at K. S. Rangasamy College of Technology specializing in VLSI Design and Technology. My engineering focus combines hardware circuit design, sensor interfacing, microcontrollers, and algorithm development to construct impactful, automated solutions.`,
 };
 
 export const projectsData: Project[] = [
@@ -44,6 +44,7 @@ export const projectsData: Project[] = [
       { pin: 'A2 - A3', function: 'Vertical Axis LDRs (Top/Bottom)' },
       { pin: 'Pin 9 (PWM)', function: 'Horizontal Azimuth Servo' },
       { pin: 'Pin 10 (PWM)', function: 'Vertical Elevation Servo' },
+      { pin: '5V / GND', function: 'Regulated Logic & Sensor Rail' },
     ],
     likesCount: 42,
   },
@@ -268,16 +269,16 @@ export const achievementsData: Achievement[] = [
     ],
   },
   {
-    title: 'National Service Scheme (NSS) Volunteer',
-    badge: 'Community Leadership & Social Service',
-    issuer: 'NSS Cell - KSRCT & Anna University',
+    title: 'Academic & Technical Excellence',
+    badge: 'VLSI & Embedded Innovation',
+    issuer: 'Department of Electronics Engineering, KSRCT',
     year: '2025 – Present',
     description:
-      'Active NSS Volunteer contributing to community development, health camps, environmental drives, and social empowerment initiatives, fostering strong civic responsibility and leadership.',
+      'Recognized for exceptional academic consistency maintaining an 8.5 CGPA along with hands-on microcontroller prototype innovations and circuit design.',
     skillsAcquired: [
-      'Community Organizing',
-      'Public Service & Empathy',
-      'Crisis Management',
+      'VLSI Design & Layout',
+      'Embedded Prototyping',
+      'Analytical Problem Solving',
       'Collaborative Teamwork',
     ],
   },

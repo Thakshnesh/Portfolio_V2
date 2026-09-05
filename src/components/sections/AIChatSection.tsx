@@ -190,11 +190,11 @@ export const AIChatSection: React.FC = () => {
       prompt: 'What are your academic marks, CGPA, and college details?',
     },
     {
-      id: 'nss-volunteer',
+      id: 'engineering-innovation',
       category: 'education',
-      label: 'NSS Community Service',
+      label: 'VLSI & Technical Innovations',
       icon: Zap,
-      prompt: 'Tell me about your NSS volunteering and social initiatives',
+      prompt: 'What engineering innovations and hardware prototypes are you currently developing?',
     },
     {
       id: 'nptel-cert',
@@ -224,7 +224,7 @@ export const AIChatSection: React.FC = () => {
     { id: 'vlsi', label: '⚡ VLSI & Semiconductor' },
     { id: 'hardware', label: '☀️ Hardware Lab' },
     { id: 'code', label: '💻 Code & Skills' },
-    { id: 'education', label: '🎓 Education & NSS' },
+    { id: 'education', label: '🎓 Education & Honors' },
     { id: 'contact', label: '📬 Contact & Location' },
     { id: 'bujji', label: '🤖 About Bujji' },
   ];

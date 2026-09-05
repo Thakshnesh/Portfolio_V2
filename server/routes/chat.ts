@@ -13,9 +13,8 @@ const THAKSHNESH_PROFILE = {
   specialization: 'VLSI Design & Technology (VLSI D&T)',
   batch: '2025 - 2029 (Present)',
   cgpa: '8.5 / 10 (1st Sem SGPA: 8.37, 2nd Sem CGPA: 8.5)',
-  nss: 'Active NSS (National Service Scheme) Volunteer engaged in community empowerment, environmental drives, and social welfare at KSRCT.',
   careerObjective:
-    'Driven and curious Electronics Engineering undergraduate and active NSS Volunteer with interests in Business Analytics, Project Management, and Artificial Intelligence. Passionate about combining analytical thinking, technology, and community-driven creativity to build innovative solutions while continuously growing both technically and professionally.',
+    'Driven and curious Electronics Engineering undergraduate with interests in VLSI Design, Embedded Systems, Business Analytics, and Artificial Intelligence. Passionate about combining analytical thinking, hardware engineering, and software innovation to build robust solutions while continuously growing both technically and professionally.',
   projects: [
     {
       name: 'Solar Tracking System using Arduino and LDR Sensors',
@@ -37,11 +36,11 @@ const THAKSHNESH_PROFILE = {
     programming: 'Python (80%), C Programming (75%), Java (70%)',
     domains: 'VLSI Design & Technology, Embedded Systems, IoT, Arduino, Artificial Intelligence & Business Analytics',
     tools: 'Visual Studio Code, Eclipse IDE, Canva, MIT App Inventor',
-    softSkills: 'Analytical Thinking, Problem Solving, Leadership & Teamwork, Technical Communication, NSS Community Service',
+    softSkills: 'Analytical Thinking, Problem Solving, Leadership & Teamwork, Technical Communication, Critical Decision Making',
   },
   achievements: [
     'NPTEL Certification in Soft Skill Development (Elite + Silver Certificate from IIT Madras, 2026)',
-    'National Service Scheme (NSS) Active Volunteer (2025 – Present)',
+    'Academic & Technical Excellence in VLSI & Embedded Systems (2025 – Present)',
   ],
 };
 
@@ -54,7 +53,7 @@ function bujjiJarvisInference(rawPrompt: string): string {
   // 1. MULTILINGUAL GREETINGS & INTRODUCTIONS (Tamil, Tanglish, Hindi, etc.)
   // =========================================================================
   if (q.includes('vanakkam') || q.includes('epdi irukinga') || q.includes('nalla irukingala') || q.includes('eppadi irukkeenga')) {
-    return `Vanakkam! 🙏 Naan dhaan **Bujji**, Thakshnesh B create panna avarodha personal AI Assistant! Thakshnesh-oda VLSI projects, Solar Tracker, MQ-2 Sensor lab, NSS volunteer work pathi kekalam, illa coding, science, general questions enna venumnalum kettu therinjukalam. Enna help venum ungaluku?`;
+    return `Vanakkam! 🙏 Naan dhaan **Bujji**, Thakshnesh B create panna avarodha personal AI Assistant! Thakshnesh-oda VLSI projects, Solar Tracker, MQ-2 Sensor lab, engineering innovations pathi kekalam, illa coding, science, general questions enna venumnalum kettu therinjukalam. Enna help venum ungaluku?`;
   }
 
   if (q.includes('namaste') || q.includes('kaise ho') || q.includes('kya haal hai') || q.includes('aap kaun ho')) {
@@ -62,7 +61,7 @@ function bujjiJarvisInference(rawPrompt: string): string {
   }
 
   if (q === 'hi' || q === 'hello' || q === 'hey' || q === 'yo' || q.startsWith('hello ') || q.startsWith('hi ') || q.startsWith('hey ')) {
-    return `Greetings! I am **Bujji**, a personal AI Assistant created and built solely by Thakshnesh B. 🤖✨\n\nI am at your service to answer any question across the cosmos: from coding algorithms and advanced electronics, to witty banter, science, or detailed breakdowns of Thakshnesh's VLSI engineering achievements and NSS service. What shall we explore today?`;
+    return `Greetings! I am **Bujji**, a personal AI Assistant created and built solely by Thakshnesh B. 🤖✨\n\nI am at your service to answer any question across the cosmos: from coding algorithms and advanced electronics, to witty banter, science, or detailed breakdowns of Thakshnesh's VLSI engineering achievements and technical projects. What shall we explore today?`;
   }
 
   if (
@@ -74,14 +73,14 @@ function bujjiJarvisInference(rawPrompt: string): string {
     q.includes('who created you') ||
     q.includes('who built you')
   ) {
-    return `I am **Bujji**—a personal AI Assistant created and built solely by **Thakshnesh B**! 🦾\n\nMy protocols allow me to assist you with:\n1. **Omniscient General Intelligence:** Answering questions in any domain (mathematics, quantum physics, philosophy, coding, trivia, history).\n2. **Engineering & Coding Mastery:** Generating and debugging code in Python, C, Java, Verilog, SQL, etc.\n3. **Thakshnesh's Direct Representative:** Sharing insights into his VLSI specialization, hardware prototypes, NSS volunteer contributions, and connecting you directly with him.\n4. **Witty & Multilingual Dialogue:** Chatting in English, Tamil, Hindi, or tackling any playful questions with flair.`;
+    return `I am **Bujji**—a personal AI Assistant created and built solely by **Thakshnesh B**! 🦾\n\nMy protocols allow me to assist you with:\n1. **Omniscient General Intelligence:** Answering questions in any domain (mathematics, quantum physics, philosophy, coding, trivia, history).\n2. **Engineering & Coding Mastery:** Generating and debugging code in Python, C, Java, Verilog, SQL, etc.\n3. **Thakshnesh's Direct Representative:** Sharing insights into his VLSI specialization, hardware prototypes, technical achievements, and connecting you directly with him.\n4. **Witty & Multilingual Dialogue:** Chatting in English, Tamil, Hindi, or tackling any playful questions with flair.`;
   }
 
   // =========================================================================
   // 2. WITTY & FUNNY / "SILLY" QUESTIONS
   // =========================================================================
   if (q.includes('meaning of life') || q.includes('42')) {
-    return `According to Douglas Adams' supercomputer *Deep Thought*, the answer to the ultimate question of life, the universe, and everything is **42**. However, in practical engineering terms, the meaning of life is solving complex problems, building cool hardware, serving the community, and never missing a semicolon in your code! 🚀`;
+    return `According to Douglas Adams' supercomputer *Deep Thought*, the answer to the ultimate question of life, the universe, and everything is **42**. However, in practical engineering terms, the meaning of life is solving complex problems, building cool hardware, and never missing a semicolon in your code! 🚀`;
   }
 
   if (q.includes('can you fly') || q.includes('suit') || q.includes('iron man')) {
@@ -121,8 +120,8 @@ function bujjiJarvisInference(rawPrompt: string): string {
   // =========================================================================
   // 3. THAKSHNESH PROFILE & PORTFOLIO KNOWLEDGE
   // =========================================================================
-  if (q.includes('nss') || q.includes('volunteer') || q.includes('social') || q.includes('community')) {
-    return `### 🤝 National Service Scheme (NSS) Volunteer\n\nThakshnesh B is an active **NSS Volunteer** at **K. S. Rangasamy College of Technology**:\n\n- **Service Impact:** Engages in grassroots community welfare, village development programs, environmental cleanliness and tree planting initiatives, and health/hygiene awareness.\n- **Values:** Demonstrates profound empathy, civic dedication, collaboration, and social responsibility.`;
+  if (q.includes('innovation') || q.includes('prototype') || q.includes('hardware') || q.includes('project')) {
+    return `### ⚡ VLSI & Embedded Hardware Innovations\n\nThakshnesh B actively develops cutting-edge hardware and embedded prototypes at **K. S. Rangasamy College of Technology**:\n\n- **Solar Tracking System:** Dual-axis automated alignment station with differential optical sensing, increasing PV energy yield by up to 35%.\n- **MQ-2 Gas & Smoke Safety Unit:** Fast-response threshold gas detection with multi-tier strobe and siren alarm triggers.\n- **VLSI Digital Circuits:** CMOS logic synthesis, RTL modeling, and semiconductor circuit exploration.`;
   }
 
   if (q.includes('email') || q.includes('contact') || q.includes('hire') || q.includes('reach') || q.includes('linkedin') || q.includes('touch') || q.includes('map') || q.includes('address') || q.includes('location')) {
@@ -142,19 +141,19 @@ function bujjiJarvisInference(rawPrompt: string): string {
   }
 
   if (q.includes('education') || q.includes('college') || q.includes('cgpa') || q.includes('gpa') || q.includes('ksrct') || q.includes('ksr') || q.includes('tiruchengode')) {
-    return `### 🎓 Academic Credentials of Thakshnesh B:\n\n- **Degree:** Bachelor of Engineering (B.E.) in Electronics Engineering\n- **Specialization:** VLSI Design & Technology (VLSI D&T)\n- **Institution:** ${THAKSHNESH_PROFILE.college}\n- **Google Maps Location:** [KSRCT Campus Map](https://maps.app.goo.gl/NwCivf8YVTJngjw88)\n- **Period:** 2025 – 2029 (Present)\n- **Performance:** **8.5 CGPA** (1st Sem SGPA: 8.37, 2nd Sem CGPA: 8.25-8.5)\n- **Activities:** Active NSS Volunteer & technical project innovator.`;
+    return `### 🎓 Academic Credentials of Thakshnesh B:\n\n- **Degree:** Bachelor of Engineering (B.E.) in Electronics Engineering\n- **Specialization:** VLSI Design & Technology (VLSI D&T)\n- **Institution:** ${THAKSHNESH_PROFILE.college}\n- **Google Maps Location:** [KSRCT Campus Map](https://maps.app.goo.gl/NwCivf8YVTJngjw88)\n- **Period:** 2025 – 2029 (Present)\n- **Performance:** **8.5 CGPA** (1st Sem SGPA: 8.37, 2nd Sem CGPA: 8.25-8.5)\n- **Activities:** Hardware prototype development and VLSI innovation.`;
   }
 
   if (q.includes('certificate') || q.includes('nptel') || q.includes('silver') || q.includes('medal') || q.includes('achievement')) {
-    return `### 🏆 Honors & Recognitions:\n\n1. **NPTEL Certification in Soft Skill Development (Silver Medal):**\n   - Awarded **Elite + Silver distinction (Silver Medal)** by NPTEL (IIT Madras, Ministry of Education, Govt. of India, 2026).\n2. **National Service Scheme (NSS) Volunteer:**\n   - Active community service volunteer recognized by KSRCT & Anna University.`;
+    return `### 🏆 Honors & Recognitions:\n\n1. **NPTEL Certification in Soft Skill Development (Silver Medal):**\n   - Awarded **Elite + Silver distinction (Silver Medal)** by NPTEL (IIT Madras, Ministry of Education, Govt. of India, 2026).\n2. **Academic & Technical Standing:**\n   - Top-tier consistency maintaining an 8.5 CGPA at KSRCT.`;
   }
 
   if (q.includes('skill') || q.includes('programming') || q.includes('tech stack')) {
-    return `### 💻 Technical & Engineering Skill Matrix:\n\n- **Programming:** Python (80%), C (75%), Java (70%)\n- **Core Engineering:** VLSI Design & Technology, Embedded Systems & IoT, Business Analytics\n- **Tools & IDEs:** Visual Studio Code, Eclipse IDE, Canva, MIT App Inventor\n- **Soft Skills:** Analytical Thinking (90%), Problem Solving (90%), Teamwork (85%), Technical Communication (85%), NSS Community Service`;
+    return `### 💻 Technical & Engineering Skill Matrix:\n\n- **Programming:** Python (80%), C (75%), Java (70%)\n- **Core Engineering:** VLSI Design & Technology, Embedded Systems & IoT, Business Analytics\n- **Tools & IDEs:** Visual Studio Code, Eclipse IDE, Canva, MIT App Inventor\n- **Soft Skills:** Analytical Thinking (90%), Problem Solving (90%), Teamwork (85%), Technical Communication (85%), Critical Decision Making`;
   }
 
   if (q.includes('about') || q.includes('bio') || q.includes('who is thakshnesh')) {
-    return `### 👤 About Thakshnesh B:\n\n${THAKSHNESH_PROFILE.careerObjective}\n\nThakshnesh is an Electronics Engineering student (VLSI D&T) at KSRCT with an 8.5 CGPA and active NSS Volunteer credentials, passionate about building smart hardware, embedded automation, and analytical systems.`;
+    return `### 👤 About Thakshnesh B:\n\n${THAKSHNESH_PROFILE.careerObjective}\n\nThakshnesh is an Electronics Engineering student (VLSI D&T) at KSRCT with an 8.5 CGPA and strong technical problem-solving skills, passionate about building smart hardware, embedded automation, and analytical systems.`;
   }
 
   // =========================================================================
@@ -195,10 +194,7 @@ function bujjiJarvisInference(rawPrompt: string): string {
     return `You are most welcome! Always at your service on behalf of Thakshnesh B. Let me know if there are any other equations, coding puzzles, or inquiries I can solve for you! 🌟`;
   }
 
-  // =========================================================================
-  // 6. OMNISCIENT JARVIS FALLBACK INTELLIGENCE
-  // =========================================================================
-  return `### 🤖 Bujji (JARVIS System Analysis)\n\nRegarding: **"${p}"**\n\nI have processed your query through my analytical engine. As Thakshnesh's personal AI Assistant, I can provide deep answers across:\n- **Technical & Software:** Python, C, Java, Full-Stack algorithms, data structures.\n- **Electronics & Hardware:** VLSI architectures, Arduino sensors, Solar Tracking, MQ-2 safety systems, semiconductor physics.\n- **Academic & Professional:** Thakshnesh's 8.5 CGPA, KSRCT journey, NSS volunteering, and direct collaboration channels.\n- **General Knowledge:** Math, science, pop culture, trivia, and multilingual inquiries in English, Tamil, and Hindi.\n\nHow would you like me to elaborate on this topic?`;
+  return `### 🤖 Bujji (System Analysis)\n\nRegarding: **"${p}"**\n\nI have processed your query through my analytical engine. As Thakshnesh's personal AI Assistant, I can provide deep answers across:\n- **Technical & Software:** Python, C, Java, Full-Stack algorithms, data structures.\n- **Electronics & Hardware:** VLSI architectures, Arduino sensors, Solar Tracking, MQ-2 safety systems, semiconductor physics.\n- **Academic & Professional:** Thakshnesh's 8.5 CGPA, KSRCT journey, technical innovations, and direct collaboration channels.\n- **General Knowledge:** Math, science, pop culture, trivia, and multilingual inquiries in English, Tamil, and Hindi.\n\nHow would you like me to elaborate on this topic?`;
 }
 
 // POST /api/chat - Conversational AI response

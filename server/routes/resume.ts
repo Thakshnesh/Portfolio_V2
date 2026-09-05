@@ -9,7 +9,7 @@ export const resumeData = {
   email: 'thakshnesh@gmail.com',
   linkedin: 'https://www.linkedin.com/in/thakshnesh-b-585928381',
   careerObjective:
-    'Driven and curious Electronics Engineering undergraduate and active NSS Volunteer with interests in Business Analytics, Project Management, and Artificial Intelligence. Passionate about combining analytical thinking, technology, and community-driven creativity to build innovative solutions while continuously growing both technically and professionally.',
+    'Driven and curious Electronics Engineering undergraduate with interests in VLSI Design, Embedded Systems, Business Analytics, and Artificial Intelligence. Passionate about combining analytical thinking, hardware engineering, and software innovation to build robust solutions while continuously growing both technically and professionally.',
   education: {
     degree: 'B.E. Electronics Engineering (VLSI Design & Technology)',
     period: '2025 - 2029 (Present)',
@@ -34,7 +34,7 @@ export const resumeData = {
     },
   ],
   skills: {
-    softSkills: ['Communication', 'Leadership', 'Problem Solving', 'Analytical Thinking', 'NSS Community Service'],
+    softSkills: ['Communication', 'Leadership', 'Problem Solving', 'Analytical Thinking', 'Critical Decision Making'],
     technicalSkills: [
       { name: 'Python', level: 80 },
       { name: 'C', level: 75 },
@@ -52,9 +52,9 @@ export const resumeData = {
       year: '2026',
     },
     {
-      title: 'National Service Scheme (NSS) Volunteer',
-      badge: 'Community Leadership & Social Service',
-      issuedBy: 'NSS Cell - KSRCT & Anna University',
+      title: 'Academic & Technical Excellence',
+      badge: 'VLSI & Embedded Innovation',
+      issuedBy: 'Department of Electronics Engineering, KSRCT',
       year: '2025 – Present',
     },
   ],

@@ -189,7 +189,7 @@ export const AchievementsSection: React.FC = () => {
             </div>
           </div>
 
-          {/* Card 2: National Service Scheme (NSS) Active Volunteer with Official NSS Logo */}
+          {/* Card 2: Academic & Technical Innovation Excellence */}
           <div
             onMouseMove={(e) => handleMouseMove(e, setTiltCard2)}
             onMouseLeave={() => handleMouseLeave(setTiltCard2)}
@@ -203,48 +203,46 @@ export const AchievementsSection: React.FC = () => {
             {/* Glowing Blue Ambient */}
             <div className="absolute top-0 left-0 w-72 h-72 bg-blue-600/15 rounded-full blur-3xl pointer-events-none" />
 
-            {/* Official NSS Logo Frame with Aura Canvas */}
+            {/* Technical Distinction Frame with Aura Canvas */}
             <div className="relative flex-shrink-0 w-36 h-36 sm:w-40 sm:h-40 rounded-3xl bg-gradient-to-br from-blue-900/50 to-slate-950 border-2 border-blue-400/50 p-3 flex flex-col items-center justify-center text-center shadow-2xl shadow-blue-600/30 group-hover:scale-105 transition-transform">
               <HolographicShimmerCanvas color="#38bdf8" />
-              <img
-                src="/nss-logo.jpg"
-                alt="National Service Scheme Logo"
-                className="relative z-10 w-20 h-20 sm:w-24 sm:h-24 object-contain rounded-full shadow-lg border border-blue-300/30"
-              />
-              <span className="relative z-10 text-[11px] font-mono uppercase font-bold text-cyan-300 mt-1">
-                NSS VOLUNTEER
+              <div className="relative z-10 w-20 h-20 sm:w-24 sm:h-24 rounded-full bg-blue-600/20 border border-cyan-400/40 flex items-center justify-center shadow-lg">
+                <Zap className="w-10 h-10 text-cyan-400 animate-pulse" />
+              </div>
+              <span className="relative z-10 text-[11px] font-mono uppercase font-bold text-cyan-300 mt-2">
+                8.5 CGPA DISTINCTION
               </span>
             </div>
 
-            {/* NSS Volunteer Content */}
+            {/* Technical Innovation Content */}
             <div className="flex-1 space-y-4 text-center md:text-left">
               <div className="flex flex-wrap items-center justify-center md:justify-start gap-2">
                 <span className="px-3 py-1 rounded-full bg-blue-500/20 border border-blue-400/40 text-cyan-300 text-xs font-bold font-mono flex items-center gap-1.5">
-                  <HeartHandshake className="w-3.5 h-3.5 text-cyan-400" />
-                  <span>National Service Scheme (NSS)</span>
+                  <Sparkles className="w-3.5 h-3.5 text-cyan-400" />
+                  <span>Academic & Engineering Excellence</span>
                 </span>
-                <span className="text-xs text-slate-400 font-mono">KSRCT Volunteer Wing • 2025 – Present</span>
+                <span className="text-xs text-slate-400 font-mono">Department of Electronics • 2025 – Present</span>
               </div>
 
               <h3 className="font-display font-bold text-xl sm:text-2xl text-white">
-                Active NSS Community & Social Volunteer
+                VLSI & Embedded Systems Technical Standing
               </h3>
 
               <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
-                Dedicated active volunteer contributing to village development camps, environmental cleanliness drives, health/hygiene awareness seminars, and community empowerment initiatives representing K. S. Rangasamy College of Technology.
+                Consistently maintaining top-tier academic standing (8.5 CGPA) in specialized VLSI Design & Technology coursework at K. S. Rangasamy College of Technology, complemented by hands-on Arduino & Sensor laboratory hardware developments.
               </p>
 
-              {/* Service Initiatives */}
+              {/* Core Strengths */}
               <div className="pt-1">
                 <span className="text-xs font-mono uppercase text-cyan-400 block mb-2 font-semibold">
-                  Key Community Service Areas:
+                  Core Engineering Domains:
                 </span>
                 <div className="flex flex-wrap justify-center md:justify-start gap-2">
                   {[
-                    'Village Community Outreach',
-                    'Environmental & Green Drives',
-                    'Health & Social Awareness',
-                    'Team Civic Engagement',
+                    'VLSI Architecture & Logic',
+                    'Embedded Microcontrollers',
+                    'Hardware Sensor Interfaces',
+                    'Analytical System Design',
                   ].map((service) => (
                     <span
                       key={service}

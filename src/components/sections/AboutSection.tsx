@@ -12,6 +12,7 @@ import {
   FileText,
   Activity,
   Zap,
+  Sparkles,
 } from 'lucide-react';
 import { useAudio } from '../../context/AudioContext';
 
@@ -72,7 +73,7 @@ const EngineeringRadarCanvas: React.FC = () => {
       // Blips / Target Nodes
       const blips = [
         { angle: angle * 0.7, dist: 45, label: 'VLSI RTL' },
-        { angle: -angle * 0.5 + 1.2, dist: 70, label: 'NSS' },
+        { angle: -angle * 0.5 + 1.2, dist: 70, label: 'ANALYTICS' },
         { angle: angle * 1.1 + 2.5, dist: 55, label: 'ARDUINO' },
       ];
 
@@ -149,11 +150,11 @@ export const AboutSection: React.FC = () => {
         'Applying analytical thinking, algorithmic modeling, and artificial intelligence to streamline engineering systems.',
     },
     {
-      title: 'Project Collaboration & NSS',
+      title: 'Professional Leadership & Soft Skills',
       icon: Users,
       color: 'from-indigo-600 to-purple-600',
       description:
-        'NPTEL Elite + Silver certified in soft skills; active NSS Volunteer dedicated to social initiatives and teamwork.',
+        'NPTEL Elite + Silver certified in soft skills, dedicated to analytical problem solving, critical thinking, and collaborative engineering.',
     },
   ];
 
@@ -169,33 +170,25 @@ export const AboutSection: React.FC = () => {
           <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-white tracking-tight">
             Engineering at the Intersection of <span className="gradient-text-blue">Hardware & Intelligence</span>
           </h2>
-          <p className="text-sm sm:text-base text-slate-300">
-            Dedicated Electronics Engineering student with a passion for building robust hardware systems and analytical solutions.
+          <p className="text-sm sm:text-base text-slate-300 max-w-2xl mx-auto">
+            Undergraduate Electronics Engineer specializing in VLSI Design, embedded hardware interfaces, and analytical problem-solving.
           </p>
         </div>
 
-        {/* Main Grid: Objective Card + 4 Pillars */}
-        <div className="grid lg:grid-cols-12 gap-8 items-stretch">
-          {/* Left: Career Objective Card */}
-          <div className="lg:col-span-5 rounded-3xl glass-panel p-6 sm:p-8 flex flex-col justify-between border border-blue-500/30 shadow-2xl relative overflow-hidden bg-gradient-to-b from-[#08132e] via-[#060e22] to-[#040816]">
-            {/* Ambient Corner Flare */}
-            <div className="absolute top-0 right-0 w-48 h-48 bg-blue-600/15 rounded-full blur-2xl pointer-events-none" />
-
-            <div className="space-y-4">
-              <div className="flex items-center gap-3">
-                <div className="w-12 h-12 rounded-xl bg-blue-600/20 border border-blue-400/40 flex items-center justify-center text-blue-400 shadow-lg shadow-blue-600/20">
-                  <GraduationCap className="w-6 h-6" />
-                </div>
-                <div>
-                  <h3 className="font-display font-bold text-xl text-white">Career Objective</h3>
-                  <p className="text-xs text-blue-300 font-mono">VISION & ASPIRATION</p>
-                </div>
-              </div>
-
-              {/* Live Radar Visualizer inside Career Card */}
+        {/* 2-Column Content Layout */}
+        <div className="grid lg:grid-cols-12 gap-8 items-start">
+          {/* Left: Bio & Radar Telemetry */}
+          <div className="lg:col-span-5 rounded-3xl glass-panel p-6 sm:p-8 border border-blue-500/30 bg-[#060e22]/90 shadow-2xl flex flex-col justify-between space-y-6">
+            <div>
+              {/* Embedded Live Radar Telemetry Visualizer */}
               <EngineeringRadarCanvas />
 
-              <blockquote className="text-slate-300 text-xs sm:text-sm leading-relaxed italic border-l-2 border-blue-500 pl-4 my-3">
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-lg bg-blue-500/20 border border-blue-400/30 text-cyan-300 text-xs font-mono font-semibold mb-3">
+                <Sparkles className="w-3.5 h-3.5 text-cyan-400 animate-pulse" />
+                <span>MISSION STATEMENT</span>
+              </div>
+
+              <blockquote className="font-sans text-sm sm:text-base text-slate-200 leading-relaxed italic border-l-2 border-cyan-500 pl-4 py-1 mb-4">
                 "{personalInfo.careerObjective}"
               </blockquote>
 
@@ -214,7 +207,7 @@ export const AboutSection: React.FC = () => {
                 </div>
                 <div className="flex items-center gap-2">
                   <CheckCircle2 className="w-4 h-4 text-emerald-400 flex-shrink-0" />
-                  <span>Active National Service Scheme (NSS) Volunteer</span>
+                  <span>Embedded Systems & Microcontroller Prototyping</span>
                 </div>
               </div>
             </div>

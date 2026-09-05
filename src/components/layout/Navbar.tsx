@@ -157,7 +157,7 @@ export const Navbar: React.FC = () => {
     { id: 'projects', label: 'Hardware Lab', href: '#projects', icon: Cpu, status: 'SOLAR & MQ-2 ACTIVE' },
     { id: 'skills', label: 'Skills Matrix', href: '#skills', icon: Zap, status: '4 ENGINES ONLINE' },
     { id: 'education', label: 'Education', href: '#education', icon: GraduationCap, status: '8.5 CGPA • KSRCT' },
-    { id: 'achievements', label: 'Certifications', href: '#achievements', icon: Award, status: 'SILVER MEDAL • NSS' },
+    { id: 'achievements', label: 'Certifications', href: '#achievements', icon: Award, status: 'NPTEL ELITE + SILVER' },
     { id: 'chat', label: 'Bujji AI', href: '#chat', icon: Bot, status: 'BUJJI AI AGENT SYNTHESIZING' },
     { id: 'contact', label: 'Contact', href: '#contact', icon: Send, status: 'SECURE SSL PIPELINE' },
   ];
