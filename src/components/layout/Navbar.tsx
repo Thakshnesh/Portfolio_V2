@@ -162,15 +162,24 @@ export const Navbar: React.FC = () => {
     { id: 'contact', label: 'Contact', href: '#contact', icon: Send, status: 'SECURE SSL PIPELINE' },
   ];
 
-  // Lock body scroll when mobile menu is open
+  // Lock body scroll and handle Escape key when mobile menu is open
   useEffect(() => {
     if (mobileMenuOpen) {
       document.body.style.overflow = 'hidden';
     } else {
       document.body.style.overflow = '';
     }
+
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape' && mobileMenuOpen) {
+        setMobileMenuOpen(false);
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
     return () => {
       document.body.style.overflow = '';
+      window.removeEventListener('keydown', handleKeyDown);
     };
   }, [mobileMenuOpen]);
 
@@ -422,14 +431,30 @@ export const Navbar: React.FC = () => {
             }`}
           >
             {/* Modal Header */}
-            <div className="flex items-center justify-between pb-4 border-b border-blue-500/20">
+            <div
+              className={`flex items-center justify-between pb-4 border-b ${
+                theme === 'light' ? 'border-slate-200' : 'border-blue-500/20'
+              }`}
+            >
               <div className="flex items-center gap-2.5">
                 <div className="w-8 h-8 rounded-lg bg-blue-600 flex items-center justify-center font-display font-black text-white text-sm shadow-md">
                   TB
                 </div>
                 <div>
-                  <h3 className="font-display font-bold text-base text-white">Thakshnesh.B</h3>
-                  <span className="text-[10px] font-mono text-cyan-300">Navigation Menu</span>
+                  <h3
+                    className={`font-display font-bold text-base ${
+                      theme === 'light' ? 'text-slate-900' : 'text-white'
+                    }`}
+                  >
+                    Thakshnesh.B
+                  </h3>
+                  <span
+                    className={`text-[10px] font-mono ${
+                      theme === 'light' ? 'text-blue-600 font-semibold' : 'text-cyan-300'
+                    }`}
+                  >
+                    Navigation Menu
+                  </span>
                 </div>
               </div>
 
@@ -439,6 +464,7 @@ export const Navbar: React.FC = () => {
                   setMobileMenuOpen(false);
                   playClick();
                 }}
+                aria-label="Close Navigation Menu"
                 className={`p-2 rounded-xl border transition-colors ${
                   theme === 'light'
                     ? 'bg-slate-100 border-slate-300 text-slate-700 hover:bg-slate-200'
@@ -498,13 +524,21 @@ export const Navbar: React.FC = () => {
             </div>
 
             {/* Quick Action Footer in Drawer */}
-            <div className="pt-4 border-t border-blue-500/20 grid grid-cols-2 gap-2">
+            <div
+              className={`pt-4 border-t grid grid-cols-2 gap-2 ${
+                theme === 'light' ? 'border-slate-200' : 'border-blue-500/20'
+              }`}
+            >
               <a
                 href="#chat"
                 onClick={() => handleNavClick('chat')}
-                className="py-2.5 px-3 rounded-xl bg-amber-500/15 border border-amber-400/30 text-amber-300 hover:bg-amber-500/25 text-xs font-semibold flex items-center justify-center gap-1.5 transition-colors"
+                className={`py-2.5 px-3 rounded-xl text-xs font-semibold flex items-center justify-center gap-1.5 transition-colors ${
+                  theme === 'light'
+                    ? 'bg-amber-100/80 border border-amber-300 text-amber-900 hover:bg-amber-200'
+                    : 'bg-amber-500/15 border border-amber-400/30 text-amber-300 hover:bg-amber-500/25'
+                }`}
               >
-                <Bot className="w-4 h-4 text-amber-400" />
+                <Bot className="w-4 h-4 text-amber-500" />
                 <span>Ask Bujji</span>
               </a>
 
