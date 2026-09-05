@@ -37,3 +37,9 @@ server/data/*.db
 .gemini
 brain
 scratch
+
+# Playwright Test Artifacts
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
