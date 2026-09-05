@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { HeroAvatarCard3D } from '../3d/HeroAvatarCard3D';
 import { personalInfo } from '../../data/portfolioData';
 import { useAudio } from '../../context/AudioContext';
+import { ResumeModal } from '../ui/ResumeModal';
 import {
   Sparkles,
   ArrowRight,
@@ -17,6 +18,7 @@ import {
 
 export const HeroSection: React.FC = () => {
   const { playClick, playSelect } = useAudio();
+  const [isResumeOpen, setIsResumeOpen] = useState(false);
 
   // Typewriter effect
   const [roleIndex, setRoleIndex] = useState(0);
@@ -112,17 +114,18 @@ export const HeroSection: React.FC = () => {
                 <span>Chat with Bujji</span>
               </a>
 
-              <a
-                href="/api/resume/download"
-                target="_blank"
-                rel="noopener"
-                onClick={playClick}
-                className="px-4 py-3.5 rounded-xl bg-slate-900/60 hover:bg-slate-800 text-slate-300 text-sm border border-slate-700 flex items-center gap-2 hover:-translate-y-0.5 transition-all"
-                title="Download Resume TXT"
+              <button
+                type="button"
+                onClick={() => {
+                  playClick();
+                  setIsResumeOpen(true);
+                }}
+                className="px-4 py-3.5 rounded-xl bg-slate-900/60 hover:bg-slate-800 text-slate-300 hover:text-white text-sm border border-slate-700 hover:border-cyan-400/50 flex items-center gap-2 hover:-translate-y-0.5 transition-all cursor-pointer shadow-md"
+                title="View & Download Official Resume"
               >
                 <Download className="w-4 h-4 text-cyan-400" />
                 <span>Resume</span>
-              </a>
+              </button>
             </div>
 
             {/* Quick Contact & Social Links */}
@@ -188,6 +191,9 @@ export const HeroSection: React.FC = () => {
         <span className="text-[10px] font-mono tracking-widest uppercase">EXPLORE PORTFOLIO</span>
         <ChevronDown className="w-4 h-4 animate-bounce text-blue-400" />
       </a>
+
+      {/* Interactive Official Resume Modal */}
+      <ResumeModal isOpen={isResumeOpen} onClose={() => setIsResumeOpen(false)} />
     </section>
   );
 };

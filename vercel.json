@@ -1,0 +1,17 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/api/resume/download",
+      "destination": "/resume.jpg"
+    },
+    {
+      "source": "/api/resume",
+      "destination": "/resume.jpg"
+    },
+    {
+      "source": "/((?!api/|resume.jpg|avatar.jpg|bujji-logo.jpg|real-avatar.jpg|nss-logo.jpg|assets/|google.*\\.html).*)",
+      "destination": "/index.html"
+    }
+  ]
+}

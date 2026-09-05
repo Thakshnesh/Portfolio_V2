@@ -74,6 +74,22 @@ test.describe('Comprehensive Portfolio E2E & Integrity Audit', () => {
     // Check "Chat with Bujji" CTA
     const chatBujjiBtn = page.getByRole('link', { name: /Chat with Bujji/i }).first();
     await expect(chatBujjiBtn).toBeVisible();
+
+    // Check "Resume" button and Modal interaction
+    const resumeBtn = page.getByRole('button', { name: /Resume/i }).first();
+    await expect(resumeBtn).toBeVisible();
+    await resumeBtn.click();
+
+    // Verify Resume Modal is displayed with high-res document image
+    const resumeModal = page.locator('div[role="dialog"][aria-label="Resume Document Preview"]');
+    await expect(resumeModal).toBeVisible();
+    const resumeImg = resumeModal.locator('img[alt="Thakshnesh B Resume Document"]');
+    await expect(resumeImg).toBeVisible();
+
+    // Close Resume Modal
+    const closeBtn = resumeModal.getByRole('button', { name: /Close/i });
+    await closeBtn.click();
+    await expect(resumeModal).not.toBeVisible();
   });
 
   // Test 3: About Section & Radar Telemetry
